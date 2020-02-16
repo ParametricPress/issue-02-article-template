@@ -1,4 +1,7 @@
 
+.ReactTable .-pagination button {
+  margin: 0;
+}
 
 
 @media all and (max-width: 1000px) {
