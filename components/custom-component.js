@@ -16,7 +16,7 @@ class CustomComponent extends React.Component {
   }
 
   render() {
-    const { hasError, idyll, updateProps, ...props } = this.props;
+    const { hasError, idyll, updateProps, clickCount, ...props } = this.props;
     return (
       <div {...props} onClick={() => this.handleClick()}>
         <svg

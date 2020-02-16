@@ -13,9 +13,6 @@
       "./node_modules/parametric-components/dist/cjs/issue-02"
     ]
   },
-  "scripts": {
-    "postinstall": "cp node_modules/parametric-styles/issue-02* static/; cp node_modules/parametric-components/templates/issue-02.html _index.html"
-  },
   "dependencies": {
     "idyll": "^4.0.7",
     "idyll-d3-component": "^2.0.0",
