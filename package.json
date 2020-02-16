@@ -1,0 +1,25 @@
+{
+  "name": "article-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "css": "styles.css",
+    "authorView": false,
+    "template": "_index.html",
+    "layout": "none",
+    "theme": "none",
+    "components": [
+      "./components",
+      "./node_modules/parametric-components/dist/cjs/issue-02"
+    ]
+  },
+  "scripts": {
+    "postinstall": "cp node_modules/parametric-styles/issue-02* static/; cp node_modules/parametric-components/templates/issue-02.html _index.html"
+  },
+  "dependencies": {
+    "idyll": "^4.0.7",
+    "idyll-d3-component": "^2.0.0",
+    "parametric-components": "^2.0.1",
+    "parametric-styles": "^2.0.0"
+  }
+}
