@@ -46,7 +46,7 @@ Additionally, custom Parametric components can be found [here](https://github.co
 
 ### Modify existing components
 
-To make changes to standard compoents, copy the source from `node_modules` to the `components` folder. 
+To make changes to standard components, copy the source from `node_modules` to the `components` folder. 
 
 For example if you wanted to customize the `[Caption /]` component you could run `cp node_modules/parametric-components/src/issue-02/caption.js components/`. 
 
