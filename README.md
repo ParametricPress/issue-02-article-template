@@ -46,6 +46,8 @@ Additionally, custom Parametric components can be found [here](https://github.co
 
 ### Modify existing components
 
-To make changes to standard compoennts, copy the source from `node_modules` to the `components` folder. For example if you wanted to customize the `[Caption /]` component you could run `cp node_modules/parametric-components/src/issue-02/caption.js components/`. 
+To make changes to standard compoents, copy the source from `node_modules` to the `components` folder. 
+
+For example if you wanted to customize the `[Caption /]` component you could run `cp node_modules/parametric-components/src/issue-02/caption.js components/`. 
 
 Similarly, to modify a built-in Idyll component you can run e.g. `cp node_modules/idyll-components/src/button.js components/`. 
