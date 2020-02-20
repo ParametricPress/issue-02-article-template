@@ -8,12 +8,11 @@ To run the article locally, make sure you have NodeJS and NPM installed. Then cl
 
 ### Installing dependencies
 
-1. Install `idyll` globally (only need to do this once): `npm install -g idyll`
-2. Install local dependencies: `npm install`
+1. Install local dependencies: `npm install`
 
 ### Running local dev server
 
-1. Run `idyll --template _local.html` in the root of this project.
+1. Run `npm start` in the root of this project.
 
 ## How do I...
 
@@ -46,8 +45,8 @@ Additionally, custom Parametric components can be found [here](https://github.co
 
 ### Modify existing components
 
-To make changes to standard components, copy the source from `node_modules` to the `components` folder. 
+To make changes to standard components, copy the source from `node_modules` to the `components` folder.
 
-For example if you wanted to customize the `[Caption /]` component you could run `cp node_modules/parametric-components/src/issue-02/caption.js components/`. 
+For example if you wanted to customize the `[Caption /]` component you could run `cp node_modules/parametric-components/src/issue-02/caption.js components/`.
 
-Similarly, to modify a built-in Idyll component you can run e.g. `cp node_modules/idyll-components/src/button.js components/`. 
+Similarly, to modify a built-in Idyll component you can run e.g. `cp node_modules/idyll-components/src/button.js components/`.
